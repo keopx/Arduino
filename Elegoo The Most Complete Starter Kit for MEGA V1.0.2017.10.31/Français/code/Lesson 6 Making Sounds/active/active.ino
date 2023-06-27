@@ -12,7 +12,7 @@ void loop()
  while(1)
  {
    //output an frequency
-   for(i=0;i<80;i++)
+   for(i=0;i<1000;i++)
    {
     digitalWrite(buzzer,HIGH);
     delay(1);//wait for 1ms
@@ -20,7 +20,7 @@ void loop()
     delay(1);//wait for 1ms
     }
     //output another frequency
-     for(i=0;i<100;i++)
+     for(i=0;i<10;i++)
       {
         digitalWrite(buzzer,HIGH);
         delay(2);//wait for 2ms
